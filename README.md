@@ -45,7 +45,7 @@ with this Data we hope to Answer 5 different KPI's
 ## Data Modelling
  We used joins to create relationship between data tables in Power bi.The Entity Relationship Diagram(ERD) below shows the connectivity between the 9 data tables used in our analysis.
  
-![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/09c5f971-050f-4f4f-aa6f-35aad671535f)
+![image]
 
 The description of these tables is as follows:
 
@@ -73,7 +73,7 @@ SQL left  joins were used to connect relevant  data tables for our My Sql.
 # Data Cleaning 
 Data Cleaning in Power Query
 
-![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/f21e7fb1-d7f6-4d7b-850d-b19ca19f5360) 
+![image]
 
 ## Step 1: Remove Blank And Null values 
 
@@ -106,7 +106,7 @@ Data Cleaning in Power Query
 
 # My SQL Queries
 
-[Link to Olist store Schema](https://github.com/Nivedhitha1009/Olist-Database-_Schemas/blob/main/Ecommerce%20Olist%20Analysis%20Sql.sql)
+[Link to Olist store Schema]
 
 ## Creating Data Visualizations
 
@@ -114,37 +114,37 @@ Data Cleaning in Power Query
 
 Now to find the Payment values for weekend vs weekday ,Firstly duplicated the purchase timestamp transform to days of the week and  renamed to purchase days.Now I created a custom column for purchase days used if else formula . And to verify if it is working, I m represented this KPI in Donut chart of weekname and Payment values
 
-  ![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/0e46fa16-9c93-40db-a95c-499de9a3557e)
+  ![image]
 
 ## KPI2
 
  There are 4 types of payment types, and since orders of review score of 5 are asked, I selected a Waterfall chart  for this KPI.
 
-![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/43ee5acf-7dec-47e2-b3a3-819d43f2676e)
+![image]
 
 ## KPI3
 To show this KPI I simply created a gauge chart, now to provide more insights for product category and Average days taken to deliver 
 
-![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/de34826e-bbd6-4025-b2c9-23af73312c2d)
+![image]
 
 ## KPI4
 
 Represented this KPI with the help of Stacked column bar chart and analysed that the  Average payment is high compared to Avg price for Sao paulo city 
 
-![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/75c77514-20ce-4dc5-a64d-2f3f4a76d701)
+![image]
 
 ## KPI5
 
 Represented this KPI with the help of Area chart with the visualization that shipping days is more for review score 1.
 As the number of Shipping days to deliver the orders increases the review score decreases.
 
-![image](https://github.com/Nivedhitha1009/Ecommerce_Olist-store-Analysis/assets/148059737/b55e167e-32b0-4563-acfc-a8e88d1e6535)
+![image]
 
 # Dashboard
 
-[Link to Dashboard on Tableau ](https://public.tableau.com/views/Ecommercestoreanalysis_16984286588070/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[Link to Dashboard on Tableau ]
 
-[Link to Dashboard on Power Bi](https://www.novypro.com/project/ecommerceolist-store-analysis)
+[Link to Dashboard on Power Bi]
 
 
 
