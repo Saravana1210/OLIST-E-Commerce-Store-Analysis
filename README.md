@@ -10,6 +10,7 @@ The Olist Store Analysis project aims to analyze customer purchasing patterns an
 ## Description of Our source Data:
 
 We chose the Brazilian-eCommerce dataset from ExcelR Solutions for our analysis. This dataset contains approximately 100,000 customer orders, along with corresponding files on product information and English translations of product categories originally in Portuguese. Nine files from the original ExcelR dataset were chosen for further analysis: 
+
 A] olist_geolocation_dataset  
 
 B] olist_customers_dataset
@@ -45,7 +46,8 @@ with this Data we hope to Answer 5 different KPI's
 ## Data Modelling
  We used joins to create relationship between data tables in Power bi.The Entity Relationship Diagram(ERD) below shows the connectivity between the 9 data tables used in our analysis.
  
-![image]
+![image](https://github.com/user-attachments/assets/cd23d24a-f190-46f7-b2ea-8697b97d7462)
+
 
 The description of these tables is as follows:
 
@@ -106,7 +108,7 @@ Data Cleaning in Power Query
 
 # My SQL Queries
 
-[Link to Olist store Schema]
+[https://docs.google.com/document/d/1cY2ygv6Nuffxw--PE9X6g7RxpHAFpwM4/edit?usp=sharing&ouid=113333275807430339441&rtpof=true&sd=true]
 
 ## Creating Data Visualizations
 
@@ -114,31 +116,36 @@ Data Cleaning in Power Query
 
 Now to find the Payment values for weekend vs weekday ,Firstly duplicated the purchase timestamp transform to days of the week and  renamed to purchase days.Now I created a custom column for purchase days used if else formula . And to verify if it is working, I m represented this KPI in Donut chart of weekname and Payment values
 
-  ![image]
+  ![image](https://github.com/user-attachments/assets/9c36ee14-d263-4b00-95d9-2c76c68f7bbc)
+
 
 ## KPI2
 
- There are 4 types of payment types, and since orders of review score of 5 are asked, I selected a Waterfall chart  for this KPI.
+ There are 4 types of payment types, and since orders of review score of 5 are asked, I selected a Barchart chart  for this KPI.
 
-![image]
+![image](https://github.com/user-attachments/assets/b1c5c7b6-8814-4f1e-b73c-a4afdd4ada5d)
+
 
 ## KPI3
-To show this KPI I simply created a gauge chart, now to provide more insights for product category and Average days taken to deliver 
+To show this KPI I simply created a line chart, now to provide more insights for product category and Average days taken to deliver 
 
-![image]
+![image](https://github.com/user-attachments/assets/92ada4a5-9594-4f19-9cd5-f652f9cbe019)
+
 
 ## KPI4
 
-Represented this KPI with the help of Stacked column bar chart and analysed that the  Average payment is high compared to Avg price for Sao paulo city 
+Represented this KPI with the help of Clustered column chart and analysed that the  Average payment is high compared to Avg price for Sao paulo city 
 
-![image]
+![image](https://github.com/user-attachments/assets/dba82e86-2f0b-4c83-b098-bdc0f67c55be)
+
 
 ## KPI5
 
 Represented this KPI with the help of Area chart with the visualization that shipping days is more for review score 1.
 As the number of Shipping days to deliver the orders increases the review score decreases.
 
-![image]
+![image](https://github.com/user-attachments/assets/ffaa81b3-800b-46e6-8812-0c51089d0380)
+
 
 # Dashboard
 
