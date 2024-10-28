@@ -142,7 +142,7 @@ Represented this KPI with the help of Clustered column chart and analysed that t
 
 ## KPI5
 
-Represented this KPI with the help of Area chart with the visualization that shipping days is more for review score 1.
+Represented this KPI with the help of line chart with the visualization that shipping days is more for review score 1.
 As the number of Shipping days to deliver the orders increases the review score decreases.
 
 ![image](https://github.com/user-attachments/assets/ffaa81b3-800b-46e6-8812-0c51089d0380)
