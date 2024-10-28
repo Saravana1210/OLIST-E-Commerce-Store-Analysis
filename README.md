@@ -75,7 +75,8 @@ SQL left  joins were used to connect relevant  data tables for our My Sql.
 # Data Cleaning 
 Data Cleaning in Power Query
 
-![image]
+![image](https://github.com/user-attachments/assets/91059f9d-b116-494d-9496-8600b09cadc3)
+
 
 ## Step 1: Remove Blank And Null values 
 
