@@ -150,9 +150,15 @@ As the number of Shipping days to deliver the orders increases the review score 
 
 # Dashboard
 
-[Link to Dashboard on Tableau ]
+[Dashboard on Tableau ]
 
-[Link to Dashboard on Power Bi]
+![image](https://github.com/user-attachments/assets/c478114f-ae2c-4d55-826e-732f3efe5002)
+
+
+[Dashboard on Power Bi]
+
+![image](https://github.com/user-attachments/assets/e22269fa-52f8-4d02-b520-94bfd5f9381c)
+
 
 
 
