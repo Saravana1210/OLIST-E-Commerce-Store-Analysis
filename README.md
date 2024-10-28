@@ -47,7 +47,7 @@ with this Data we hope to Answer 5 different KPI's
  We used joins to create relationship between data tables in Power bi.The Entity Relationship Diagram(ERD) below shows the connectivity between the 9 data tables used in our analysis.
  
 ![image](https://github.com/user-attachments/assets/cd23d24a-f190-46f7-b2ea-8697b97d7462)
-
+ 
 
 The description of these tables is as follows:
 
